@@ -7,11 +7,13 @@ var $plugins =
 {"name":"EventReSpawn","status":true,"description":"イベント動的生成プラグイン","parameters":{}},
 {"name":"TemplateEvent","status":true,"description":"テンプレートイベントプラグイン","parameters":{"テンプレートマップID":"1","イベントIDを維持":"OFF","グラフィック置換":"OFF"}},
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"OFF","ピクチャ番号の変数番号":"0","ポインタX座標の変数番号":"0","ポインタY座標の変数番号":"0","タッチ操作抑制":"OFF"}},
-{"name":"SAN_AnalogMove","status":true,"description":"アナログムーブ ver1.40\r\n1ピクセル単位の移動 アナログスティック・タッチパッド対応","parameters":{"Valid":"ON","Player":"ON","PreventThrough":"OFF"}},
-{"name":"TDDP_ManageDashing","status":true,"description":"ゲーム内でのダッシュモードの利用が可能になります。","parameters":{"Disable Auto-dash":"false","Disable Dashing":"true","Remove Dash Option":"false"}},
+{"name":"SAN_AnalogMove","status":false,"description":"アナログムーブ ver1.40\r\n1ピクセル単位の移動 アナログスティック・タッチパッド対応","parameters":{"Valid":"ON","Player":"ON","PreventThrough":"OFF"}},
+{"name":"TDDP_ManageDashing","status":true,"description":"ゲーム内でのダッシュモードの利用が可能になります。","parameters":{"Disable Auto-dash":"true","Disable Dashing":"true","Remove Dash Option":"false"}},
 {"name":"SyncVariable","status":true,"description":"ユーザ間の変数同期プラグイン","parameters":{"ユーザID":"susumago0077","同期開始変数番号":"21","同期終了変数番号":"60","同期開始スイッチ番号":"21","同期終了スイッチ番号":"60","認証ファイル形式":"OFF"}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"AdjustPictureGraphical","status":false,"description":"ピクチャのグラフィカルな位置調整プラグイン","parameters":{}},
 {"name":"UCHU_MobileOperation","status":true,"description":"スマホ操作用プラグイン。横持ち/縦持ちに対応した仮想ボタン、\r\nタッチ操作の方法を追加拡張し、スマホプレイを快適にします。","parameters":{"---PC Option---":"","PC BtnDisplay":"false","PC TouchExtend":"true","---File Path---":"","DPad Image":"./img/system/DirPad.png","ActionBtn Image":"./img/system/ActionButton.png","CancelBtn Image":"./img/system/CancelButton.png","---Button Customize---":"","Button Opacity":"0.7","Vertical BtnZoom":"1.7","Tablet BtnZoom":"0.8","TabVertical BtnZoom":"1.1","HideButton OnMessage":"true","DPad Visible":"true","DPad Size":"200","DPad Margin":"10; 10","DPad Orientation":"left; bottom","DPad OpelationRange":"1.3","DPad DiagonalRange":"0.3","ActionBtn Visible":"true","ActionBtn Size":"100","ActionBtn Margin":"10; 90","ActionBtn Orientation":"right; bottom","CancelBtn Visible":"true","CancelBtn Size":"100","CancelBtn Margin":"110; 10","CancelBtn Orientation":"right; bottom","---TouchInput Extend---":"","Flick PageUp-PageDown":"true","HoldCanvas ActionBtn":"true","OutCanvas CancelBtn":"false","OutCanvas ActionBtn":"false","--!need AnalogMove.js!--":"","Analog Move":"false","Analog Sensitivity":"1.8"}},
-{"name":"TitleNewGameOnly","status":true,"description":"ニューゲームオンリープラグイン","parameters":{"PressStart":"Press Start","FontFace":"","ContinueEnable":"OFF"}}
+{"name":"TitleNewGameOnly","status":true,"description":"ニューゲームオンリープラグイン","parameters":{"PressStart":"Press Start","FontFace":"","ContinueEnable":"OFF"}},
+{"name":"HalfMove","status":true,"description":"半歩移動プラグイン","parameters":{"8方向移動":"ON","イベントすり抜け":"ON","強制中無効":"OFF","角回避":"ON","斜め移動中減速":"OFF","トリガー拡大":"OFF","実歩数調整":"OFF","上半分移動不可地形":"0","上半分移動不可Region":"0","下半分移動不可地形":"0","下半分移動不可Region":"0","イベント複数起動防止":"OFF"}},
+{"name":"ChangeMapTouchPolicy","status":true,"description":"マップタッチ仕様変更プラグイン","parameters":{"仕様レベル初期値":"1"}}
 ];
